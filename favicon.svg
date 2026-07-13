@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Neuron">
+  <defs>
+    <linearGradient id="now" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff4fd8"/>
+      <stop offset="0.5" stop-color="#c04dff"/>
+      <stop offset="1" stop-color="#6f70ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="#0b0b0f"/>
+  <g fill="#ffffff" fill-opacity="0.92">
+    <rect x="123" y="169" width="44" height="174" rx="22"/>
+    <rect x="212" y="123" width="44" height="266" rx="22"/>
+    <rect x="300" y="154" width="44" height="205" rx="22"/>
+  </g>
+  <rect x="389" y="103" width="44" height="307" rx="22" fill="url(#now)"/>
+</svg>
