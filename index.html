@@ -73,6 +73,16 @@
   .stage{opacity:0;animation:fade 1.4s ease .2s forwards}
   @keyframes fade{to{opacity:1}}
   @media (max-width:900px){.stage{height:36vh}}
+  @media (max-width:820px){
+    .sub{white-space:normal;font-size:clamp(0.95rem,3.2vw,1.15rem);line-height:1.6;letter-spacing:.01em;max-width:44ch;margin-bottom:8px}
+  }
+  @media (max-width:520px){
+    .hero{padding:clamp(28px,5vh,52px) 0 32px}
+    .headline{white-space:normal;font-size:clamp(1.8rem,8.4vw,2.5rem);line-height:1.08;max-width:15ch;margin-bottom:14px}
+    .stage{height:min(40vh,320px);margin:14px 0 24px}
+    .foot{flex-direction:column;align-items:flex-start;gap:6px}
+    .foot .col{text-align:left!important}
+  }
   @media (prefers-reduced-motion:reduce){.rise,.stage{animation:none;opacity:1;transform:none}}
 </style>
 </head>
